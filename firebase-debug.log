@@ -1,0 +1,41 @@
+[debug] [2018-01-14T07:34:32.219Z] ----------------------------------------------------------------------
+[debug] [2018-01-14T07:34:32.222Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Nishit\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-01-14T07:34:32.222Z] CLI Version:   3.16.0
+[debug] [2018-01-14T07:34:32.223Z] Platform:      win32
+[debug] [2018-01-14T07:34:32.223Z] Node Version:  v8.9.3
+[debug] [2018-01-14T07:34:32.225Z] Time:          Sun Jan 14 2018 13:04:32 GMT+0530 (India Standard Time)
+[debug] [2018-01-14T07:34:32.225Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-01-14T07:34:32.251Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-01-14T07:34:32.254Z] > authorizing via signed-in user
+[debug] [2018-01-14T07:34:32.264Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-01-14T07:34:32.265Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/7hjY2dk9ldE7WQYiS753MtNwXhcCea7vBz9dRgrb78m7JZ_hfHdLuQAB4gixUK4T',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Sun Jan 14 2018 13:04:32 GMT+0530 (India Standard Time)
+[debug] [2018-01-14T07:34:33.166Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-14T07:34:33.212Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/proteinhouze-1514555954434  
+  
+ Sun Jan 14 2018 13:04:33 GMT+0530 (India Standard Time)
+[debug] [2018-01-14T07:34:35.100Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-14T07:34:35.103Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/proteinhouze-1514555954434/tokens  
+  
+ Sun Jan 14 2018 13:04:35 GMT+0530 (India Standard Time)
+[debug] [2018-01-14T07:34:37.066Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Projects\proteinhouze_lite'...
+[info] 
+[debug] [2018-01-14T07:34:37.088Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/proteinhouze-1514555954434  
+  
+ Sun Jan 14 2018 13:04:37 GMT+0530 (India Standard Time)
+[debug] [2018-01-14T07:34:39.713Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-14T07:34:39.715Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/27833218343/clients/_:getWebAppConfig  
+  
+ Sun Jan 14 2018 13:04:39 GMT+0530 (India Standard Time)
+[debug] [2018-01-14T07:34:41.190Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
