@@ -12,7 +12,7 @@ body{
     border: 15px solid transparent;
     padding: 15px;
     border-image:url(../images/dumbbell.png) 20% space;
-    }
+    
 }
 .nav-item:hover{
     /* background-image: url('../images/dumbbell.png'); */
