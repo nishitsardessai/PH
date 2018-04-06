@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700');
+nav{
+font-family: 'Open Sans Condensed', sans-serif;
+}
+
+body{
+    font-size: 14px;
+}
+
+
+.nav-item{
+    border: 15px solid transparent;
+    padding: 15px;
+    border-image:url(../images/dumbbell.png) 20% space;
+    }
+}
+.nav-item:hover{
+    /* background-image: url('../images/dumbbell.png'); */
+    /* background-repeat: no-repeat; */
+
+    border:transparent 20px;
+    /* padding: 20px; */
+    border-image: url('../images/dumbbell.png') 130 repeat;
+    /* width: 100%; */
+}
